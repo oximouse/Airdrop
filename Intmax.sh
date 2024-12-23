@@ -96,13 +96,13 @@ else
     echo -e "${GREEN}${CHECK} screen sudah terpasang.${RESET}\n"
 fi
 
-# Jalankan mining-cli di dalam sesi screen dengan nama universitas airdrop_intmax dan langsung masuk ke sesi screen
-echo -e "${CYAN}${INFO} ${YELLOW}Menjalankan mining-cli di dalam sesi screen bernama universitasairdrop_intmax...${RESET}\n"
-screen -S universitasairdrop_intmax -dm ./mining-cli
-screen -r universitasairdrop_intmax
+# Jalankan mining-cli di dalam sesi screen dengan nama intmax dan langsung masuk ke sesi screen
+echo -e "${CYAN}${INFO} ${YELLOW}Menjalankan mining-cli di dalam sesi screen bernama intmax...${RESET}\n"
+screen -S intmax -dm ./mining-cli
+screen -r intmax
 
 # Pesan selesai
-echo -e "\n${CYAN}${INFO} ${YELLOW}Skrip selesai! Proses mining-cli berjalan di dalam screen session 'universitasairdrop_intmax'.${RESET}"
+echo -e "\n${CYAN}${INFO} ${YELLOW}Skrip selesai! Proses mining-cli berjalan di dalam screen session 'intmax'.${RESET}"
 
 # Informasi tentang pembuat skrip
 echo -e "\n${CYAN}${INFO} ${YELLOW}Dibuat oleh Universitas Airdrop. Gabung di Telegram: ${RESET} ${BLUE}https://t.me/UniversitasAirdropid${RESET}\n"
