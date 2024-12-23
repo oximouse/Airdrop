@@ -132,4 +132,4 @@ echo "Harap simpan data Anda, atau Anda akan kehilangan akses!"
 docker system prune -f
 echo "Sistem Docker dibersihkan."
 echo -e "\n🎉 **Done Bang! ** 🎉"
-echo -e "\n👉 **[Gabung Universitas Airdrop](https://t.me/universitasairdropid)** 👈"
+echo -e "\n👉 **Gabung Universitas Airdrop 👉(https://t.me/universitasairdropid)** 👈"
