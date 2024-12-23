@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl -s https://raw.githubusercontent.com/oximouse/Airdrop/main/logo.sh | bash
+curl -s https://raw.githubusercontent.com/oximouse/Airdrop/main/Logo.sh | bash
 sleep 5
 
 echo "INICHAIN NODE"
